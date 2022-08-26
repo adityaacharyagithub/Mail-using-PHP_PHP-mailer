@@ -1,0 +1,7 @@
+Steps:-
+1) Download all the files 
+2) Make two new folder one named "PHPMailerr" and other named "vendor"
+3) Extract files from the PHPMailerr.zip to the folder named "PHPMailerr"
+4) Extract files from the vendor.zip to the folder named "vendor"
+5) Goto line '99' in the register.php file and change it to your mail id and do the same with mail on line '105'.
+6) Run 
