@@ -29,13 +29,13 @@ $name = $email = $user_name = $password = "";
     $mail->isSMTP();                                           
     $mail->Host       = 'smtp.gmail.com';                     
     $mail->SMTPAuth   = true;                                   
-    $mail->Username   = 'samudaayverify@gmail.com';                    
+    $mail->Username   = 'yourmail@gmail.com';                    
     $mail->Password   = 'jsdeuhrklslblxdd';                             
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
     $mail->Port       = 465; 
 
     //Recipients
-    $mail->setFrom('samudaayverify@gmail.com', 'verify your mail');
+    $mail->setFrom('yourmail@gmail.com', 'verify your mail');
     //Add a recipient
     $mail->addAddress($email, $name);
     //Set email format to HTML
