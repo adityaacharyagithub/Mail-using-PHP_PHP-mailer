@@ -30,7 +30,7 @@ $name = $email = $user_name = $password = "";
     $mail->Host       = 'smtp.gmail.com';                     
     $mail->SMTPAuth   = true;                                   
     $mail->Username   = 'yourmail@gmail.com';                    
-    $mail->Password   = 'jsdeuhrklslblxdd';                             
+    $mail->Password   = '#generatedpassword';                             
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
     $mail->Port       = 465; 
 
